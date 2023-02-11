@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pricing_bonuses",
+  "info": {
+    "displayName": "Bonuses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Point": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "system_components",
+  "info": {
+    "singularName": "system-component",
+    "pluralName": "system-components",
+    "displayName": "System Component"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

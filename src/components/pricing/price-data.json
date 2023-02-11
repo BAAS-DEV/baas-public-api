@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_pricing_price_data",
+  "info": {
+    "displayName": "PriceData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BasePrice": {
+      "type": "decimal"
+    },
+    "DisplayTitle": {
+      "type": "string"
+    },
+    "MeasurementUnit": {
+      "type": "string"
+    },
+    "Details": {
+      "displayName": "DetailPoints",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.detail-points"
+    },
+    "Bonuses": {
+      "displayName": "Bonuses",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.bonuses"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
