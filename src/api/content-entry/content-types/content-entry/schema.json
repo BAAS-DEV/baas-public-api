@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_entries",
+  "info": {
+    "singularName": "content-entry",
+    "pluralName": "content-entries",
+    "displayName": "Content Entry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "content_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::content-type.content-type",
+      "inversedBy": "content_entries"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Slug": {
+      "type": "uid"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_types",
+  "info": {
+    "singularName": "content-type",
+    "pluralName": "content-types",
+    "displayName": "Content Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "content_entries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::content-entry.content-entry",
+      "mappedBy": "content_type"
+    }
+  }
+}

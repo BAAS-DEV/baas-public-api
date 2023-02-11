@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pricing_detail_points",
+  "info": {
+    "displayName": "DetailPoints",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Point": {
+      "type": "string"
+    }
+  }
+}
