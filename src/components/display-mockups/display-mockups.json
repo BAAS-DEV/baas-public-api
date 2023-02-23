@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_display_mockups_display_mockups",
+  "info": {
+    "displayName": "DisplayMockups"
+  },
+  "options": {},
+  "attributes": {
+    "mockupType": {
+      "type": "enumeration",
+      "enum": [
+        "mobile",
+        "web"
+      ]
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
