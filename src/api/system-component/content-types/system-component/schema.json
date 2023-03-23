@@ -4,10 +4,11 @@
   "info": {
     "singularName": "system-component",
     "pluralName": "system-components",
-    "displayName": "System Component"
+    "displayName": "System Component",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -16,6 +17,17 @@
     },
     "Description": {
       "type": "text"
+    },
+    "DisplayMockup": {
+      "displayName": "DisplayMockups",
+      "type": "component",
+      "repeatable": true,
+      "component": "display-mockups.display-mockups"
+    },
+    "system": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::system.system"
     }
   }
 }

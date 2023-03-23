@@ -18,6 +18,44 @@
     "@strapi/plugin-users-permissions": "4.5.2",
     "@strapi/strapi": "4.5.2",
     "better-sqlite3": "7.4.6",
+    "nodemailer": "^6.9.1",
+    "pg": "^8.8.0",
+    "strapi-html-editor": "^1.0.2",
+    "strapi-plugin-comment-manager": "^1.0.17",
+    "strapi-plugin-populate-deep": "^2.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1e25a71c-4d2f-48b8-92db-ff6b4e93c8aa"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
+{
+  "name": "baas-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^33.0.0",
+    "@offset-dev/strapi-calendar": "^0.0.9",
+    "@strapi/plugin-documentation": "^4.5.2",
+    "@strapi/plugin-graphql": "^4.5.2",
+    "@strapi/plugin-i18n": "4.5.2",
+    "@strapi/plugin-users-permissions": "4.5.2",
+    "@strapi/strapi": "4.5.2",
+    "better-sqlite3": "7.4.6",
     "pg": "^8.8.0",
     "strapi-html-editor": "^1.0.2",
     "strapi-plugin-comment-manager": "^1.0.17",
