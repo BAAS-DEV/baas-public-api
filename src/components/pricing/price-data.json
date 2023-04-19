@@ -28,7 +28,7 @@
       "component": "pricing.bonuses"
     },
     "Description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

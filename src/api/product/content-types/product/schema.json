@@ -21,7 +21,7 @@
       "target": "api::product-category.product-category"
     },
     "Description": {
-      "type": "string"
+      "type": "text"
     },
     "pricing": {
       "type": "component",

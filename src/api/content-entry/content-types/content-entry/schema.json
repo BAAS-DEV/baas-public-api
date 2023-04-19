@@ -32,6 +32,9 @@
     },
     "imageURL": {
       "type": "string"
+    },
+    "Featured": {
+      "type": "boolean"
     }
   }
 }

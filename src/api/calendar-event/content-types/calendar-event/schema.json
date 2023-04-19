@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calendar_events",
+  "info": {
+    "singularName": "calendar-event",
+    "pluralName": "calendar-events",
+    "displayName": "CalendarEvents",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "StartTime": {
+      "type": "datetime"
+    },
+    "EndTime": {
+      "type": "datetime"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "EventType": {
+      "type": "enumeration",
+      "enum": [
+        "B2b",
+        "OutReach",
+        "SocialMediaPost"
+      ]
+    }
+  }
+}
