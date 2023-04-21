@@ -23,6 +23,9 @@
     },
     "imageURL": {
       "type": "string"
+    },
+    "Order": {
+      "type": "integer"
     }
   }
 }

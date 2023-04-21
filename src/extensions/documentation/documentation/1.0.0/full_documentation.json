@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-19T18:17:16.282Z"
+    "x-generation-date": "2023-04-21T04:04:23.033Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8179,6 +8179,9 @@
                 "items": {
                   "$ref": "#/components/schemas/PricingPriceDataComponent"
                 }
+              },
+              "Order": {
+                "type": "integer"
               }
             }
           }
@@ -8219,6 +8222,9 @@
                           },
                           "imageURL": {
                             "type": "string"
+                          },
+                          "Order": {
+                            "type": "integer"
                           },
                           "createdAt": {
                             "type": "string",
@@ -8527,6 +8533,9 @@
                 "items": {
                   "$ref": "#/components/schemas/PricingPriceDataComponent"
                 }
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -8614,6 +8623,9 @@
                           "imageURL": {
                             "type": "string"
                           },
+                          "Order": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -8921,6 +8933,9 @@
                 "items": {
                   "$ref": "#/components/schemas/PricingPriceDataComponent"
                 }
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -9041,6 +9056,9 @@
                           "imageURL": {
                             "type": "string"
                           },
+                          "Order": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -9348,6 +9366,9 @@
                 "items": {
                   "$ref": "#/components/schemas/PricingPriceDataComponent"
                 }
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -9435,6 +9456,9 @@
                           "imageURL": {
                             "type": "string"
                           },
+                          "Order": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -9742,6 +9766,9 @@
                 "items": {
                   "$ref": "#/components/schemas/PricingPriceDataComponent"
                 }
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -9873,6 +9900,9 @@
               },
               "imageURL": {
                 "type": "string"
+              },
+              "Order": {
+                "type": "integer"
               }
             }
           }
@@ -9898,6 +9928,9 @@
               },
               "imageURL": {
                 "type": "string"
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -10216,6 +10249,9 @@
               },
               "imageURL": {
                 "type": "string"
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -10568,6 +10604,9 @@
               "imageURL": {
                 "type": "string"
               },
+              "Order": {
+                "type": "integer"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -10885,6 +10924,9 @@
               },
               "imageURL": {
                 "type": "string"
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
