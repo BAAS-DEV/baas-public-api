@@ -15,9 +15,6 @@
     "Name": {
       "type": "string"
     },
-    "Description": {
-      "type": "richtext"
-    },
     "Slug": {
       "type": "uid"
     },
@@ -26,6 +23,9 @@
     },
     "Order": {
       "type": "integer"
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }

@@ -16,7 +16,7 @@
       "type": "string"
     },
     "Description": {
-      "type": "string"
+      "type": "text"
     },
     "content_entries": {
       "type": "relation",
