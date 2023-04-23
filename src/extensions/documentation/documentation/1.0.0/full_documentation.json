@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-21T04:12:49.721Z"
+    "x-generation-date": "2023-04-23T04:37:30.571Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -11264,6 +11264,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "Slug": {
+                "type": "string"
               }
             }
           }
@@ -11335,6 +11338,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "Slug": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -11699,6 +11705,9 @@
                     }
                   }
                 }
+              },
+              "Slug": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -11813,6 +11822,9 @@
                                             }
                                           }
                                         },
+                                        "Slug": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -12176,6 +12188,9 @@
                     }
                   }
                 }
+              },
+              "Slug": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -12323,6 +12338,9 @@
                                             }
                                           }
                                         },
+                                        "Slug": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -12686,6 +12704,9 @@
                     }
                   }
                 }
+              },
+              "Slug": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -12800,6 +12821,9 @@
                                             }
                                           }
                                         },
+                                        "Slug": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -13163,6 +13187,9 @@
                     }
                   }
                 }
+              },
+              "Slug": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -20683,6 +20710,9 @@
                               }
                             }
                           },
+                          "Slug": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -21166,6 +21196,9 @@
                                 }
                               }
                             }
+                          },
+                          "Slug": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -21684,6 +21717,9 @@
                               }
                             }
                           },
+                          "Slug": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -22167,6 +22203,9 @@
                                 }
                               }
                             }
+                          },
+                          "Slug": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
