@@ -20,6 +20,9 @@
     },
     "Image": {
       "type": "string"
+    },
+    "Slug": {
+      "type": "uid"
     }
   }
 }
