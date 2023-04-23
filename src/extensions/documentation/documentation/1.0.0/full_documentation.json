@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-23T04:53:05.349Z"
+    "x-generation-date": "2023-04-23T05:18:10.887Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -17338,6 +17338,9 @@
               },
               "Slug": {
                 "type": "string"
+              },
+              "Order": {
+                "type": "integer"
               }
             }
           }
@@ -17363,6 +17366,9 @@
               },
               "Slug": {
                 "type": "string"
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -17681,6 +17687,9 @@
               },
               "Slug": {
                 "type": "string"
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -18033,6 +18042,9 @@
               "Slug": {
                 "type": "string"
               },
+              "Order": {
+                "type": "integer"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -18350,6 +18362,9 @@
               },
               "Slug": {
                 "type": "string"
+              },
+              "Order": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -18740,6 +18755,9 @@
                           "Slug": {
                             "type": "string"
                           },
+                          "Order": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -19129,6 +19147,9 @@
                           },
                           "Slug": {
                             "type": "string"
+                          },
+                          "Order": {
+                            "type": "integer"
                           },
                           "createdAt": {
                             "type": "string",
@@ -19553,6 +19574,9 @@
                           "Slug": {
                             "type": "string"
                           },
+                          "Order": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -19942,6 +19966,9 @@
                           },
                           "Slug": {
                             "type": "string"
+                          },
+                          "Order": {
+                            "type": "integer"
                           },
                           "createdAt": {
                             "type": "string",

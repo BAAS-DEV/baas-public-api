@@ -23,6 +23,9 @@
     },
     "Slug": {
       "type": "uid"
+    },
+    "Order": {
+      "type": "integer"
     }
   }
 }
