@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-23T05:18:10.887Z"
+    "x-generation-date": "2023-05-02T02:23:08.903Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1627,6 +1627,10 @@
                                           "type": "string",
                                           "format": "date-time"
                                         },
+                                        "publishedAt": {
+                                          "type": "string",
+                                          "format": "date-time"
+                                        },
                                         "createdBy": {
                                           "type": "object",
                                           "properties": {
@@ -1984,6 +1988,10 @@
                 "format": "date-time"
               },
               "updatedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -2115,6 +2123,10 @@
                                           "type": "string",
                                           "format": "date-time"
                                         },
+                                        "publishedAt": {
+                                          "type": "string",
+                                          "format": "date-time"
+                                        },
                                         "createdBy": {
                                           "type": "object",
                                           "properties": {
@@ -2472,6 +2484,10 @@
                 "format": "date-time"
               },
               "updatedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -2636,6 +2652,10 @@
                                           "type": "string",
                                           "format": "date-time"
                                         },
+                                        "publishedAt": {
+                                          "type": "string",
+                                          "format": "date-time"
+                                        },
                                         "createdBy": {
                                           "type": "object",
                                           "properties": {
@@ -2993,6 +3013,10 @@
                 "format": "date-time"
               },
               "updatedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -3124,6 +3148,10 @@
                                           "type": "string",
                                           "format": "date-time"
                                         },
+                                        "publishedAt": {
+                                          "type": "string",
+                                          "format": "date-time"
+                                        },
                                         "createdBy": {
                                           "type": "object",
                                           "properties": {
@@ -3481,6 +3509,10 @@
                 "format": "date-time"
               },
               "updatedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -3955,6 +3987,10 @@
                               "format": "date-time"
                             },
                             "updatedAt": {
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "publishedAt": {
                               "type": "string",
                               "format": "date-time"
                             },
@@ -4434,6 +4470,10 @@
                               "format": "date-time"
                             },
                             "updatedAt": {
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "publishedAt": {
                               "type": "string",
                               "format": "date-time"
                             },
@@ -4949,6 +4989,10 @@
                               "type": "string",
                               "format": "date-time"
                             },
+                            "publishedAt": {
+                              "type": "string",
+                              "format": "date-time"
+                            },
                             "createdBy": {
                               "type": "object",
                               "properties": {
@@ -5425,6 +5469,10 @@
                               "format": "date-time"
                             },
                             "updatedAt": {
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "publishedAt": {
                               "type": "string",
                               "format": "date-time"
                             },
